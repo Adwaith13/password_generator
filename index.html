@@ -13,7 +13,10 @@
     </div>
 
     <div class="password-params">
-        <p1 id="char-length">Character Length</p1> <br>
+        <div class="slider">
+            <p>Character Length: <span id="demo"></span></p>
+            <input type="range" min="0" max="10" value="0" class="slider" id="myRange">
+          </div>
         <input type="checkbox" id="uppercase" value="uppercase">
         <label>Include Uppercase Letters</label><br>
         <input type="checkbox" id="lowercase" value="lowercase">
@@ -25,5 +28,6 @@
 
         <button type="submit">Generate</button>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

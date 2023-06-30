@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    height: auto;
+}
+
+body{
+    font-family: 'Monospaceland',sans-serif;
+    background-color: #0C0B10;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 23px;
+    color: #7E7C89;
+    margin-top: 80px;
+} 
+
+.password-area{
+    background-color: #24232B;
+    margin: 20px 450px;
+    width: 480px;
+    height: 60px;
+}
+
+.password-params{
+    color: white;
+    background-color: #24232B;
+    margin: 15px 450px;
+    width: 480px;
+    height: 400px;
+}
+
