@@ -28,6 +28,55 @@ h1{
     background-color: #24232B;
     margin: 15px 450px;
     width: 480px;
-    height: 400px;
+    height: 420px;
+}
+.slider{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#range{
+    padding: 20px 0px;
+    width: 90%;
+}
+#char-len{
+    padding-left: 255px;
+    margin-top: 20px;
 }
 
+.checks{
+    padding: 10px 25px;
+}
+
+#uppercase,#lowercase,#symbols,#numbers{
+    margin-bottom: 20px;
+}
+
+.strength-bar{
+    background-color: #18171F;
+    padding: 20px 0px;
+    margin: 0px 25px;
+}
+#strength{
+    padding-left: 20px;
+    display: inline;
+}
+
+button{
+    background-color: #A4FFAF;
+    width: 90%;
+    padding: 20px 0px;
+    margin: 30px 25px;
+    cursor: pointer;
+    color: #04210F;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #A4FFAF;
+}
+
+#arrow{
+    position:absolute;
+    margin-top: 54px;
+    margin-left: 285px;
+    width: 10px;
+}
