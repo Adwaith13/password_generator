@@ -52,20 +52,29 @@ h1{
 }
 
 .strength-bar{
+    width: 90%;
     background-color: #18171F;
     padding: 20px 0px;
     margin: 0px 25px;
+    display:flex;
 }
 #strength{
     padding-left: 20px;
     display: inline;
+    font-family: 'Roboto',sans-serif;
+}
+
+.bars{
+    position: absolute;
+    display: inline;
+    margin-left: 330px;
 }
 
 button{
     background-color: #A4FFAF;
     width: 90%;
     padding: 20px 0px;
-    margin: 30px 25px;
+    margin: 25px 25px;
     cursor: pointer;
     color: #04210F;
     font-family: 'Roboto',sans-serif;
@@ -76,7 +85,9 @@ button{
 
 #arrow{
     position:absolute;
-    margin-top: 54px;
-    margin-left: 285px;
+    margin-top: 48px;
+    margin-left: 278px;
     width: 10px;
 }
+
+
