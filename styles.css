@@ -23,6 +23,15 @@ h1{
     height: 60px;
 }
 
+#password{
+    color:white;
+    font-family: 'Monospaceland',sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+    
+}
+
 .password-params{
     color: white;
     background-color: #24232B;
@@ -41,6 +50,8 @@ h1{
 #char-len{
     padding-left: 255px;
     margin-top: 20px;
+    color: '#A4FFAF';
+    font-family:'Monspaceland',sans-serif;
 }
 
 .checks{

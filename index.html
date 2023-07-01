@@ -9,22 +9,24 @@
 <body>
     <h1>Password Generator</h1>
     <div class="password-area">
+        <p id="password">
 
+        </p>
     </div>
 
     <div class="password-params">
         <div class="slider">
             <p>Character Length: <span id="char-len"></span></p>
-            <input type="range" min="0" max="10" value="0" class="slider" id="range">
+            <input type="range" min="0" max="10" value="0" id="range" oninput="charlength()">
         </div>
         <div class="checks">
-            <input type="checkbox" id="uppercase" value="uppercase">
+            <input type="checkbox" id="uppercase">
             <label>Include Uppercase Letters</label><br>
-            <input type="checkbox" id="lowercase" value="lowercase">
+            <input type="checkbox" id="lowercase">
             <label>Include Lowercase Letters</label><br>
-            <input type="checkbox" id="numbers" value="numbers">
+            <input type="checkbox" id="numbers">
             <label>Include Numbers</label><br>
-            <input type="checkbox" id="symbols" value="symbols">
+            <input type="checkbox" id="symbols">
             <label>Include Symbols</label><br>
         </div>
         
@@ -39,7 +41,7 @@
         </div>
         
         <img src="arrow.svg" id="arrow">
-        <button type="submit">Generate</button>
+        <button type="button" onclick="generatepassword()">Generate</button>
     </div>
     <script src="index.js"></script>
 </body>
