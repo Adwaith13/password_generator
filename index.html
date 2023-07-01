@@ -9,21 +9,40 @@
 <body>
     <h1>Password Generator</h1>
     <div class="password-area">
+        <p id="password">
 
+        </p>
     </div>
 
     <div class="password-params">
-        <p1 id="char-length">Character Length</p1> <br>
-        <input type="checkbox" id="uppercase" value="uppercase">
-        <label>Include Uppercase Letters</label><br>
-        <input type="checkbox" id="lowercase" value="lowercase">
-        <label>Include Lowercase Letters</label><br>
-        <input type="checkbox" id="numbers" value="numbers">
-        <label>Include Numbers</label><br>
-        <input type="checkbox" id="symbols" value="symbols">
-        <label>Include Symbols</label><br>
-
-        <button type="submit">Generate</button>
+        <div class="slider">
+            <p>Character Length: <span id="char-len"></span></p>
+            <input type="range" min="0" max="10" value="0" id="range" oninput="charlength()">
+        </div>
+        <div class="checks">
+            <input type="checkbox" id="uppercase">
+            <label>Include Uppercase Letters</label><br>
+            <input type="checkbox" id="lowercase">
+            <label>Include Lowercase Letters</label><br>
+            <input type="checkbox" id="numbers">
+            <label>Include Numbers</label><br>
+            <input type="checkbox" id="symbols">
+            <label>Include Symbols</label><br>
+        </div>
+        
+        <div class="strength-bar">
+            <span id="strength">STRENGTH</span>
+            <div class="bars">
+                <img src="bar.svg">
+                <img src="bar.svg">
+                <img src="bar.svg">
+                <img src="bar.svg">
+            </div>
+        </div>
+        
+        <img src="arrow.svg" id="arrow">
+        <button type="button" onclick="generatepassword()">Generate</button>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
