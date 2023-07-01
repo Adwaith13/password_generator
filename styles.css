@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    height: auto;
+}
+
+body{
+    font-family: 'Monospaceland',sans-serif;
+    background-color: #0C0B10;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 23px;
+    color: #7E7C89;
+    margin-top: 80px;
+} 
+
+.password-area{
+    background-color: #24232B;
+    margin: 20px 450px;
+    width: 480px;
+    height: 60px;
+}
+
+#password{
+    color:white;
+    font-family: 'Monospaceland',sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+    
+}
+
+.password-params{
+    color: white;
+    background-color: #24232B;
+    margin: 15px 450px;
+    width: 480px;
+    height: 420px;
+}
+.slider{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#range{
+    padding: 20px 0px;
+    width: 90%;
+}
+#char-len{
+    padding-left: 255px;
+    margin-top: 20px;
+    color: '#A4FFAF';
+    font-family:'Monspaceland',sans-serif;
+}
+
+.checks{
+    padding: 10px 25px;
+}
+
+#uppercase,#lowercase,#symbols,#numbers{
+    margin-bottom: 20px;
+}
+
+.strength-bar{
+    width: 90%;
+    background-color: #18171F;
+    padding: 20px 0px;
+    margin: 0px 25px;
+    display:flex;
+}
+#strength{
+    padding-left: 20px;
+    display: inline;
+    font-family: 'Roboto',sans-serif;
+}
+
+.bars{
+    position: absolute;
+    display: inline;
+    margin-left: 330px;
+}
+
+button{
+    background-color: #A4FFAF;
+    width: 90%;
+    padding: 20px 0px;
+    margin: 25px 25px;
+    cursor: pointer;
+    color: #04210F;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #A4FFAF;
+}
+
+#arrow{
+    position:absolute;
+    margin-top: 48px;
+    margin-left: 278px;
+    width: 10px;
+}
+
+
