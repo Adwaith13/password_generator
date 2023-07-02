@@ -3,6 +3,9 @@ function charlength(){
   let range=document.getElementById("range");
   let characterlength=document.getElementById("char-len");
   characterlength.innerHTML=range.value
+  characterlength.style.color='#A4FFAF';
+  characterlength.style.fontFamily='Monospaceland';
+  characterlength.style.fontSize='25px';
 }
 charlength();
 
@@ -40,7 +43,6 @@ function generatepassword(){
   }
   document.getElementById('password').innerHTML=generated_pass;
 }
-
 
 
 

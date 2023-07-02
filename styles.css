@@ -28,8 +28,7 @@ h1{
     font-family: 'Monospaceland',sans-serif;
     font-size: 25px;
     letter-spacing: 5px;
-    padding: 10px 20px;
-    
+    padding: 15px 20px;
 }
 
 .password-params{
@@ -43,10 +42,12 @@ h1{
     padding-top: 15px;
     padding-left: 20px;
 }
+
 #range{
     padding: 20px 0px;
     width: 90%;
 }
+
 #char-len{
     padding-left: 255px;
     margin-top: 20px;
@@ -81,7 +82,7 @@ h1{
     margin-left: 330px;
 }
 
-button{
+#generate{
     background-color: #A4FFAF;
     width: 90%;
     padding: 20px 0px;
@@ -101,4 +102,9 @@ button{
     width: 10px;
 }
 
-
+#copy{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 20px;
+    cursor: pointer;
+}
