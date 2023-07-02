@@ -9,8 +9,9 @@
 <body>
     <h1>Password Generator</h1>
     <div class="password-area">
+        <img src="Vector.png" id="copy">
         <p id="password">
-
+            
         </p>
     </div>
 
@@ -22,11 +23,11 @@
         <div class="checks">
             <input type="checkbox" id="uppercase">
             <label>Include Uppercase Letters</label><br>
-            <input type="checkbox" id="lowercase">
+            <input type="checkbox" id="lowercase" >
             <label>Include Lowercase Letters</label><br>
-            <input type="checkbox" id="numbers">
+            <input type="checkbox" id="numbers" >
             <label>Include Numbers</label><br>
-            <input type="checkbox" id="symbols">
+            <input type="checkbox" id="symbols" >
             <label>Include Symbols</label><br>
         </div>
         
@@ -41,7 +42,7 @@
         </div>
         
         <img src="arrow.svg" id="arrow">
-        <button type="button" onclick="generatepassword()">Generate</button>
+        <button type="button" onclick="generatepassword()" id="generate">Generate</button>
     </div>
     <script src="index.js"></script>
 </body>
