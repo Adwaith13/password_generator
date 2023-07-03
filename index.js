@@ -44,6 +44,46 @@ function generatepassword(){
   document.getElementById('password').innerHTML=generated_pass;
 }
 
+function updateStrength() {
+  let bar1 = document.getElementById('bar1');
+  let bar2 = document.getElementById('bar2');
+  let bar3 = document.getElementById('bar3');
+  let bar4 = document.getElementById('bar4');
+
+  let checkboxes = document.querySelectorAll('.checks input[type="checkbox"]');
+  let checkedCount = 0;
+
+  for (let i = 0; i < checkboxes.length; i++) {
+      if (checkboxes[i].checked) {
+          checkedCount++;
+      }
+
+    if (checkedCount >= 1) {
+        bar1.style.backgroundColor = '#A4FFAF';
+    }
+    else{
+      bar1.style.backgroundColor = '#18171F';
+    }
+    if (checkedCount >= 2) {
+        bar2.style.backgroundColor = '#A4FFAF';
+    }
+    else{
+      bar2.style.backgroundColor = '#18171F';
+    }
+    if (checkedCount >= 3) {
+        bar3.style.backgroundColor = '#A4FFAF';
+    }
+    else{
+      bar3.style.backgroundColor = '#18171F';
+    }
+    if (checkedCount >= 4) {
+        bar4.style.backgroundColor = '#A4FFAF';
+    }
+    else{
+      bar4.style.backgroundColor = '#18171F';
+  }
+}
+}
 
 
 

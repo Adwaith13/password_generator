@@ -80,6 +80,12 @@ h1{
     position: absolute;
     display: inline;
     margin-left: 330px;
+    padding: 2px 2px;
+}
+#bar1,#bar2,#bar3,#bar4{
+    margin-right: 5px;
+    padding: 2px 2px;
+    border: 2px solid white;
 }
 
 #generate{

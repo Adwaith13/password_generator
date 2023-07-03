@@ -21,23 +21,23 @@
             <input type="range" min="0" max="10" value="0" id="range" oninput="charlength()">
         </div>
         <div class="checks">
-            <input type="checkbox" id="uppercase">
+            <input type="checkbox" id="uppercase" onchange="updateStrength()">
             <label>Include Uppercase Letters</label><br>
-            <input type="checkbox" id="lowercase" >
+            <input type="checkbox" id="lowercase" onchange="updateStrength()" >
             <label>Include Lowercase Letters</label><br>
-            <input type="checkbox" id="numbers" >
+            <input type="checkbox" id="numbers" onchange="updateStrength()">
             <label>Include Numbers</label><br>
-            <input type="checkbox" id="symbols" >
+            <input type="checkbox" id="symbols" onchange="updateStrength()" >
             <label>Include Symbols</label><br>
         </div>
         
         <div class="strength-bar">
             <span id="strength">STRENGTH</span>
             <div class="bars">
-                <img src="bar.svg">
-                <img src="bar.svg">
-                <img src="bar.svg">
-                <img src="bar.svg">
+                <span id="bar1"></span>
+                <span id="bar2"></span>
+                <span id="bar3"></span>
+                <span id="bar4"></span>
             </div>
         </div>
         
