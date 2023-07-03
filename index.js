@@ -39,7 +39,7 @@ function generatepassword(){
   let generated_pass='';
   for(let i=0;i<slider;i++)
   {
-    generated_pass+=password.charAt(Math.floor(Math.random()*password.length));
+    generated_pass+=password.charAt(Math.random()*password.length);
   }
   document.getElementById('password').innerHTML=generated_pass;
 }
