@@ -44,6 +44,7 @@ function generatepassword(){
   document.getElementById('password').innerHTML=generated_pass;
 }
 
+//function for strength bars
 function updateStrength() {
   let bar1 = document.getElementById('bar1');
   let bar2 = document.getElementById('bar2');
@@ -84,6 +85,19 @@ function updateStrength() {
   }
 }
 }
+
+//function for copy
+function copyPassword(){
+  let copy=document.getElementById("password").innerHTML;
+  navigator.clipboard.writeText(copy)
+  .then(function() {
+      alert("Password copied");
+  })
+  .catch(function(error) {
+      console.error("Failed to copy password: ", error);
+  });
+}
+
 
 
 
